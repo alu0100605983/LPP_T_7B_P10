@@ -1,3 +1,45 @@
+#= Examen.rb
+#Autores: Haniel y Maria
+#
+#==Rdoc
+#
+#===Clase List
+#*Metodo Initialize
+#*Metodo get_head
+#*Metodo get_tail
+#*Metodo lpush
+#*Metodo lpop
+#*Metodo each
+#*Metodo reverse_each
+#
+#===Clase Exam
+#*Metodo initialize
+#*Metodo <=>
+#
+#===Clase SimpleChoice
+#*Metodo initialize
+#*Metodo to_html
+#*Metodo mostrar_pregunta
+#*Metodo rmostrar_respuestas
+#*Metodo to_s
+#*Metodo correcta
+#*Metodo <=>
+#
+#===Clase TrueFalse
+#*Metodo initialize
+#*Metod <=>
+#*Metodo correcta
+#*Metodo to_s
+#
+#===Clase Vista
+#*Metodo initialize
+#*Metodo test_examn
+#
+#===Clase Examen
+#*Metodo initialize
+#*Metodo to_s
+#*Metodo reverse
+
 require "question_examen/version"
 
 module QuestionExamen
